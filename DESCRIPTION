@@ -1,12 +1,13 @@
 Package: myplots.jh
-Title: What the Package Does (One Line, Title Case)
+Title: This package contains some plotting functions.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Jun", "Hanvey", , "junhanvey@gmail.com", role = c("aut", "cre"))
+Description: This package has shortcuts for some useful plots. It includes a funcion to create residual plots and other good plots for assessing model accuracy.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.0
+Depends: 
+    ggplot2,
+    R(>= 3.5)
