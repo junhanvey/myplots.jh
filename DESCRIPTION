@@ -1,9 +1,9 @@
 Package: myplots.jh
 Title: This package contains some plotting functions.
-Version: 0.0.0.9000
+Version: 0.0.1.0000
 Authors@R: 
     person("Jun", "Hanvey", , "junhanvey@gmail.com", role = c("aut", "cre"))
-Description: This package has shortcuts for some useful plots. It includes a funcion to create residual plots and other good plots for assessing model accuracy.
+Description: This package has shortcuts for some useful plots. It includes a funcion to create residual plots and other good plots for assessing model accuracy.Also has functions to create a histogram and boxplot for a vector + category
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
